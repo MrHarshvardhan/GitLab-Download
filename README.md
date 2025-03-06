@@ -41,8 +41,8 @@ pip install requests
 ### **Step 3: Clone This Repository**
 To use this script, clone the repository:
 ```bash
-git clone https://github.com/yourusername/gitlab-file-downloader.git
-cd gitlab-file-downloader
+git clone git@github.com:MrHarshvardhan/GitLab-Download.git
+cd GitLab-Download
 ```
 
 ---
@@ -58,12 +58,12 @@ GITLAB_TOKEN = "your_personal_access_token"  # Replace with your token
 ## **Usage**
 Run the script using the following command:
 ```bash
-python gitlab_download.py -r "RepoName" -f "path/to/file.txt" -b "main"
+python GitLab-Download.py -r "RepoName" -f "path/to/file.txt" -b "main"
 ```
 
 ### **Example:**
 ```bash
-python gitlab_download.py -r "MyPrivateRepo" -f "docs/readme.md" -b "develop"
+python GitLab-Download.py -r "MyPrivateRepo" -f "docs/readme.md" -b "develop"
 ```
 
 🚀 **Happy Coding!** 🎯
